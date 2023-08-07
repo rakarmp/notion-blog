@@ -11,7 +11,6 @@ export default function ContactPage() {
 			<h2 className="text-4xl font-bold leadi lg:text-5xl">Let's talk!</h2>
 			<div className="dark:text-gray-400">Let's start a conversation with me.</div>
 		</div>
-		<img src="https://rakarmp.github.io/Mycloud/undraw_term_sheet_re_ju7s.svg" alt="" className="p-6 h-52 md:h-64" />
 	</div>
 	<form className="space-y-6">
 		<div>

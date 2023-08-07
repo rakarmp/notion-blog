@@ -1,3 +1,7 @@
+import Image from 'next/image'
+
+const urlimage = "/readme/profile.jpeg"
+
 export const metadata = {
   title: 'About',
   description: 'This is about page.',
@@ -11,10 +15,12 @@ export default function AboutPage() {
 
         <div className="flex items-center justify-center">
           <div className="relative h-64 w-64">
-            <img
-              src="https://avatars.githubusercontent.com/u/83684256?v=4"
+          <Image
+              src={urlimage}
+              width={400}
+              height={800}
               alt="Profil"
-              className="rounded-full"
+              className="rounded-full mx-auto p-4"
             />
           </div>
         </div>
