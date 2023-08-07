@@ -20,10 +20,6 @@ export default function ProjectsPage() {
             data-te-ripple-init=""
             data-te-ripple-color="light"
           >
-            <img
-              src="https://rakarmp.github.io/Mycloud/Banner Kuning dan Hitam Halus Olahraga Sepak Bola (2).png"
-              className="w-full"
-            />
             <a href="#!">
               <div className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]" />
             </a>
@@ -61,10 +57,6 @@ export default function ProjectsPage() {
             data-te-ripple-init=""
             data-te-ripple-color="light"
           >
-            <img
-              src="https://user-images.githubusercontent.com/83684256/213665373-92c29982-68ee-4d0d-9e64-f2943fafee21.png"
-              className="w-full"
-            />
             <a href="#!">
               <div className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]" />
             </a>
@@ -97,10 +89,6 @@ export default function ProjectsPage() {
             data-te-ripple-init=""
             data-te-ripple-color="light"
           >
-            <img
-              src="https://github.com/rakarmp/DragonBoost/raw/master/DragonBoost.jpeg"
-              className="w-full"
-            />
             <a href="#!">
               <div className="mask absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,0.2)]" />
             </a>
