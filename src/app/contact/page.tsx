@@ -12,18 +12,18 @@ export default function ContactPage() {
 			<div className="dark:text-gray-400">{"Let's start a conversation with me."}</div>
 		</div>
 	</div>
-	<form className="space-y-6">
+	<form action="https://getform.io/f/29f52e57-5a96-4f33-bf11-1645c12b43e8" method="POST" className="space-y-6">
 		<div>
 			<label className="text-sm">Full name</label>
-			<input id="name" type="text" placeholder="" className="w-full p-3 hover:bg-violet-400 bg-gray-200 rounded dark:bg-gray-800" />
+			<input id="name" name="name" type="text" placeholder="" className="w-full p-3 hover:bg-violet-400 bg-gray-200 rounded dark:bg-gray-800" />
 		</div>
 		<div>
 			<label className="text-sm">Email</label>
-			<input id="email" type="email" className="w-full p-3 hover:bg-violet-400 bg-gray-200  rounded dark:bg-gray-800" />
+			<input id="email" type="email" name="email" className="w-full p-3 hover:bg-violet-400 bg-gray-200  rounded dark:bg-gray-800" />
 		</div>
 		<div>
 			<label className="text-sm">Message</label>
-			<textarea id="message" className="w-full p-3 bg-gray-200 hover:bg-violet-400 rounded dark:bg-gray-800"></textarea>
+			<input id="message" type="text" name="message" className="w-full p-3 bg-gray-200 hover:bg-violet-400 rounded dark:bg-gray-800"></input>
 		</div>
 		<button type="submit" className="p-5 py-4 mx-auto text-sm font-bold tracki uppercase bg-gray-200 rounded hover:bg-violet-400 dark:text-gray-900">Send Message</button>
 	</form>
